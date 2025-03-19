@@ -1,0 +1,28 @@
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.glowing-button {
+    background-color: #000; /* Black background */
+    border: 2px solid #32CD32; /* Green border */
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #32CD32; /* Green text */
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 10px #32CD32; /* Green glow effect */
+    transition: all 0.3s ease-in-out;
+}
+
+.glowing-button:hover {
+    color: #000; /* Change text color to black */
+    background-color: #32CD32; /* Green background */
+    box-shadow: 0 0 20px #32CD32, 0 0 30px #32CD32, 0 0 40px #32CD32; /* Green glow effect on hover */
+}
